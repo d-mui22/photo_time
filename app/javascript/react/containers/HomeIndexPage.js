@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import CategoriesContainer from './CategoriesContainer'
 
 class HomeIndexPage extends Component {
   constructor(props) {
@@ -8,7 +9,8 @@ class HomeIndexPage extends Component {
   render() {
     return(
       <div>
-        <p>Hola</p>
+        <h1>Welcome to Index Page</h1>
+        <CategoriesContainer/>
       </div>
     )
   }
